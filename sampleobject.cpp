@@ -27,6 +27,10 @@ SampleObject::~SampleObject()
 // BEGIN: Custom Code
 #include <iostream>
 #include "standardfilesystem.h"
+void SampleObject::ParseObject()
+{
+	//get the variables
+}	
 void SampleObject::Save(StandardFileSystem fs, const char * fileName)
 {
 	std::cout << fileName << std::endl;
